@@ -1,30 +1,31 @@
-# React + TypeScript + Vite
+<h1 align="center">Administrador de pacientes</h1>
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/3657be85-7584-4f08-8672-58e922f580d4" alt="Administrador de pacientes"> 
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2> :page_facing_up: Descripción del proyecto</h2>
 
-Currently, two official plugins are available:
+<p> La aplicación consiste en registrar un paciente (una mascota en este caso, siendo una veterinaria), 
+  teniendo la opción de eliminar o editar sus datos. </p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<b>Proyecto: <a href="https://sage-vacherin-b3d916.netlify.app/" target="_blank">Administrador de pacientes de veterinaria</a></b>
 
-## Expanding the ESLint configuration
+<h2> :heavy_check_mark: Características</h2>
+<p> Proyecto creado en React donde se introducirá Zustand para gestionar el estado global de la app. 
+  Por otro lado, para las notificaciones se ha utilizado react-toastify y para las validaciones del formulario
+  se ha utilizado react-hook-form
+</p>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<h2> :hammer: Tecnologías aplicadas</h2>
 
-- Configure the top-level `parserOptions` property like this:
+<ul>
+  <li>React</li>
+  <li>Vite</li>
+  <li>TypeScript</li>
+  <li>TailwindCSS</li>
+  <li>JSX</li>
+</ul>
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+<h2>Idea del proyecto</h2>
+<p>Este proyecto fue realizado durante el curso de <a href="https://www.udemy.com/course/react-de-principiante-a-experto-creando-mas-de-10-aplicaciones/?couponCode=KEEPLEARNING">React y TypeScript</a></p>
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
